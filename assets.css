@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+
+}
+
+
+body {
+    background-image: url(img/white.jpg);
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 70px;
+
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+
+}
+
+
+
+p {
+    text-align: center;
+
+}
+
+.menu {
+    width: 80%;
+
+    background-color: antiquewhite;
+    margin: 185px;
+    padding: 40px 20px;
+
+
+
+}
+
+.brend {
+    text-align: left;
+    width: 50%;
+    margin-left: 30px;
+    font-size: 18px;
+
+
+
+}
+
+.cena {
+    text-align: right;
+    width: 45%;
+    font-size: 18px;
+
+}
+
+
+
+
+.item p {
+    display: inline-block;
+    padding: 5px;
+
+
+}
+
+.ime {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    font-size: 50px;
+}
+
+.naziv {
+    text-align: center;
+    padding: 20px;
+}
+
+.kolicina {
+    text-align: right;
+    margin-right: 75px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #936237;
+    padding-top: 50px;
+}
+
+#contener {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.footer-content {
+    width: 33.3%;
+
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Georgia, serif;
+
+}
+
+.footer-content p {
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+
+.footer-content ul {
+    text-align: center;
+}
+
+.list {
+    padding: 0;
+
+
+}
+
+.list li {
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.list li::before {
+    content: "";
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition-duration: .5s;
+}
+
+.list li::hover::before {
+    width: 70px;
+}
+
+.list a {
+    color: white;
+    font-family: Georgia, serif;
+}
+
+.social-icons {
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.social-icons i {
+    color: white;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.social-icons i:hover {
+    color: black;
+}
+
+.button-bar {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+
+.button-bar p {
+    color: #191919;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
